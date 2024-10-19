@@ -107,6 +107,7 @@ margin-top: 25%;
 /* form padre  */
 .form-padre {
   display: grid;
+  padding: 0 10% 0 10%;
   grid-template-columns: 1fr 1fr;
   margin: auto;
   background-color: #ffffff;
@@ -511,12 +512,13 @@ margin-top: 25%;
   
   .contenedor-hijo2 {
     margin-top: -450px;
-    margin-right: -430px;
+    margin-right: -300px;
 
   }
   #coheteinicial {
     width: 150px;
     height: 150px;
+    margin-right: -450px;
     
   }
 
@@ -805,7 +807,7 @@ header {
 
 
 .contenedor-padre {
-  width: 210px;
+  width: 200px;
   margin-left: 30px;
 }
 
