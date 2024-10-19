@@ -68,13 +68,15 @@
 }
 
 .texto-contenedor-hijo1 {
+  font-family: 'Poppins';
   font-size: 50px;
   font-weight: bold;
-  color: black;
+  color: #363636;
   margin: 0 10px 0 0;
 }
 
 .texto-contenedor-hijo2 {
+  font-family: 'Poppins';
   font-size: 50px;
   font-weight: bold;
   background: linear-gradient(to bottom, #145d9a 0%, #145d9a 100%);
@@ -85,6 +87,7 @@
 }
 
 .texto-contenedor-hijo3 {
+  font-family: 'Poppins';
   font-size: 50px;
   font-weight: bold;
   background: linear-gradient(to bottom, #145d9a 0%, #02c155 100%);
@@ -133,12 +136,14 @@ margin-top: 25%;
 .form-hijo-subtitulo2 {
   margin-top: -20px;
   font-size: 20px;
+  color: #212529;
 }
 
 .form-hijo-subtitulo3 {
   font-size: 20px;
   word-spacing: 5px;
   white-space: pre-wrap;
+  color: #212529;
 }
 /* form hijo 2  */
 .form-hijo2 {
@@ -146,6 +151,7 @@ margin-top: 25%;
   grid-template-rows: auto 1fr auto 1fr 1fr;
   border-bottom: 50px;
   padding: 5%;
+  color: #212529;
 }
 
 .form-hijo2-btn {
@@ -532,6 +538,14 @@ margin-top: 25%;
     padding-bottom: 150px;
   }
 
+  .form-hijo-subtitulo {
+    font-weight: bold;
+    background: linear-gradient(to top, #02c155 0%,  #145d9a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
   .form-hijo-subtitulo, .form-hijo-subtitulo2 {
     text-align: center;
   }
@@ -786,7 +800,7 @@ header {
 
 .texto-contenedor-hijo1 {
   font-weight: bold;
-  color: black;
+  color: #363636;
 }
 
 .texto-contenedor-hijo2 {
@@ -968,6 +982,13 @@ header {
   .centro_footer {
     margin: 0px;
     height: 100px;
+  }
+
+  .texto-contenedor-hijo2, 
+  .texto-contenedor-hijo3 {
+    background: linear-gradient(to top,#02be56  0%, #0c8a7a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
 }
